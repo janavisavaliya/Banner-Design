@@ -1,0 +1,58 @@
+body{
+  font-family: inter;
+  background: linear-gradient(22deg, rgba(20,1,25,1) 0%, rgba(91,14,78,1) 100%);
+  font-size: 16px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+a{
+  text-decoration: none;
+}
+ol,ul{
+  list-style: none;
+  margin: 0;
+}
+.banner-content span{
+  color: transparent;
+  background-image: linear-gradient(67deg, rgba(253,116,82,1) 0%, rgba(255,66,101,1) 100%);
+  background-clip: text;
+}
+.img1{
+  top: 10%;
+  right: 2%;
+}
+.img2{
+  top: 18%;
+  right: 27%;
+}
+.img3{
+  top: 10%;
+  left: 27%;
+}
+.img4{
+ left: 24%;
+  top: 45%;
+}
+.img5{
+  left: 24%;
+   bottom: 10%;
+ }
+ .Experts .btn i{
+  font-size: 10px;
+  border-radius: 50%;
+  background-color:#ff3c3c;
+  padding: 8px;
+ }
+ 
+ .line{
+  position: relative;
+ }
+ .line::after{
+  content: " ";
+  position: absolute;
+  width: 5px;
+  height: 70px;
+  background: linear-gradient(67deg, rgba(253,116,82,1) 0%, rgba(255,66,101,1) 100%);
+  top: 20px;
+  left: 0;
+ }
